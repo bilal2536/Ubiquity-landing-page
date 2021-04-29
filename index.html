@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ubiquity - Professional Web UI</title>
+    <link rel="stylesheet" href="css/glide.core.min.css">
+    <link rel="stylesheet" href="css/base.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+
+    <header class="site-header">
+        <div class="container">
+            <div class="ubiquity">
+                <div class="ubiquity__logo">
+                    <img src="img/ubiquity-logo.svg" alt="Ubiquity logo">
+                </div>
+                <h1 class="ubiquity__title">Ubiquity <span class="ubiquity__baseline">Professional Web UI</span></h1>
+            </div>
+            <nav class="main-nav">
+                <button class="main-nav__toggler" aria-expanded="false" aria-controls="menu" aria-label="Menu">
+                    <span class="main-nav__bar"></span>
+                    <span class="main-nav__bar"></span>
+                    <span class="main-nav__bar"></span>
+                </button>
+                <ul class="main-nav__list" id="menu" hidden>
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">Home</a></li>
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">About</a></li>
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">Portfolio</a></li>
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">Blog</a></li>
+                    <li class="main-nav__item"><a href="#" class="main-nav__link">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <h2>At Ubiquity, We care</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed.</p>
+                    </li>
+                    <li class="glide__slide">
+                        <h2>Who cares ?</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed.</p>
+                    </li>
+                    <li class="glide__slide">
+                        <h2>Do you care ?</h2>
+                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed.</p>
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__arrows" data-glide-el="controls">
+                <button class="glide__arrow glide__arrow--left ir" data-glide-dir="<">Previous</button>
+                <button class="glide__arrow glide__arrow--right ir" data-glide-dir=">">Next</button>
+            </div>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet ir" data-glide-dir="=0">Go to slide 1</button>
+                <button class="glide__bullet ir" data-glide-dir="=1">Go to slide 2</button>
+                <button class="glide__bullet ir" data-glide-dir="=2">Go to slide 3</button>
+            </div>
+        </div>
+    </section>
+
+    <section class="features">
+        <div class="container">
+            <h2 class="section__title">Our Services</h2>
+            <p class="section__description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Reprehenderit architecto beatae cum enim rerum sequi voluptatum vitae, perspiciatis illum explicabo recusandae aspernatur quidem ab aliquid molestias esse veniam adipisci. Adipisci?</p>
+            <ul class="features-list">
+                <li class="features-list__item">
+                    <figure class="features-list__figure">
+                        <img src="img/icon-briefcase.svg" alt="A briefcase" class="features-list__image">
+                    </figure>
+                    <h3 class="features-list__title">Consultation</h3>
+                    <p class="features-list__description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                </li>
+                <li class="features-list__item">
+                    <figure class="features-list__figure">
+                        <img src="img/icon-notes.svg" alt="Some notes" class="features-list__image">
+                    </figure>
+                    <h3 class="features-list__title">Blogging</h3>
+                    <p class="features-list__description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                </li>
+                <li class="features-list__item">
+                    <figure class="features-list__figure">
+                        <img src="img/icon-star.svg" alt="A star" class="features-list__image">
+                    </figure>
+                    <h3 class="features-list__title">Social Media</h3>
+                    <p class="features-list__description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                </li>
+                <li class="features-list__item">
+                    <figure class="features-list__figure">
+                        <img src="img/icon-bolt.svg" alt="A bolt" class="features-list__image">
+                    </figure>
+                    <h3 class="features-list__title">SEO</h3>
+                    <p class="features-list__description">Give a brief description of the feature that you are promoting. Keep it short so that its easy for people to read.</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="big-feature">
+        <div class="container">
+            <h2 class="section__title section__title--bright">What is Ubiquity</h2>
+            <p class="section__description section__description--bright">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat,</p>
+            <img srcset="img/browser-mockup.png, img/browser-mockup@2x.png 2x" src="img/browser-mockup.png" alt="Mockups" class="big-feature__image">
+        </div>
+    </section>
+
+    <section class="latest-posts">
+        <div class="container">
+            <h2 class="section__title">Latest Posts</h2>
+            <p class="section__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod </p>
+            <div class="latest-posts__grid">
+                <article class="latest-posts__item">
+                    <figure class="latest-posts__figure">
+                        <img srcset="img/news-1.jpeg, img/news-1@2x.jpeg 2x" src="img/news-1.jpeg" alt="News" class="latest-posts__image">
+                    </figure>
+                    <h3 class="latest-posts__title">Blog Title</h3>
+                    <p class="latest-posts__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                    <a href="" class="latest-posts__link"><span class="screen-reader-text">Read more</span></a>
+                </article>
+                <article class="latest-posts__item">
+                    <figure class="latest-posts__figure">
+                        <img srcset="img/news-2.jpeg, img/news-2@2x.jpeg 2x" src="img/news-2.jpeg" alt="News" class="latest-posts__image">
+                    </figure>
+                    <h3 class="latest-posts__title">Title of the Blog</h3>
+                    <p class="latest-posts__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                    <a href="" class="latest-posts__link"><span class="screen-reader-text">Read more</span></a>
+                </article>
+                <article class="latest-posts__item">
+                    <figure class="latest-posts__figure">
+                        <img srcset="img/news-3.jpeg, img/news-3@2x.jpeg 2x" src="img/news-3.jpeg" alt="News" class="latest-posts__image">
+                    </figure>
+                    <h3 class="latest-posts__title">Title of the Blog</h3>
+                    <p class="latest-posts__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                    <a href="" class="latest-posts__link"><span class="screen-reader-text">Read more</span></a>
+                </article>
+                <article class="latest-posts__item">
+                    <figure class="latest-posts__figure">
+                        <img srcset="img/news-4.jpeg, img/news-4@2x.jpeg 2x" src="img/news-4.jpeg" alt="News" class="latest-posts__image">
+                    </figure>
+                    <h3 class="latest-posts__title">Blog Title</h3>
+                    <p class="latest-posts__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                    <a href="" class="latest-posts__link"><span class="screen-reader-text">Read more</span></a>
+                </article>
+                <article class="latest-posts__item">
+                    <figure class="latest-posts__figure">
+                        <img srcset="img/news-5.jpeg, img/news-5@2x.jpeg 2x" src="img/news-5.jpeg" alt="News" class="latest-posts__image">
+                    </figure>
+                    <h3 class="latest-posts__title">Blog Title</h3>
+                    <p class="latest-posts__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                    <a href="" class="latest-posts__link"><span class="screen-reader-text">Read more</span></a>
+                </article>
+                <article class="latest-posts__item">
+                    <figure class="latest-posts__figure">
+                        <img srcset="img/news-6.jpeg, img/news-6@2x.jpeg 2x" src="img/news-6.jpeg" alt="News" class="latest-posts__image">
+                    </figure>
+                    <h3 class="latest-posts__title">Blog Title</h3>
+                    <p class="latest-posts__description">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna</p>
+                    <a href="" class="latest-posts__link"><span class="screen-reader-text">Read more</span></a>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <section class="funfacts">
+        <div class="container">
+            <h2 class="section__title">Fun Facts</h2>
+            <ul class="funfacts__list">
+                <li class="funfacts__item">
+                    <span class="funfacts__number">5</span> <span class="funfacts__fact">people</span>
+                </li>
+                <li class="funfacts__item">
+                    <span class="funfacts__number">243</span> <span class="funfacts__fact">pageviews</span>
+                </li>
+                <li class="funfacts__item">
+                    <span class="funfacts__number">23</span> <span class="funfacts__fact">coffees</span>
+                </li>
+                <li class="funfacts__item">
+                    <span class="funfacts__number">600</span> <span class="funfacts__fact">hours</span>
+                </li>
+                <li class="funfacts__item">
+                    <span class="funfacts__number">40</span> <span class="funfacts__fact">days</span>
+                </li>
+                <li class="funfacts__item">
+                    <span class="funfacts__number">17</span> <span class="funfacts__fact">websites</span>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section class="testimonials">
+        <div class="container">
+            <div class="glide__track" data-glide-el="track">
+                <ul class="glide__slides">
+                    <li class="glide__slide">
+                        <figure class="testimonials__figure">
+                            <img srcset="img/amanda-siegfried.jpeg, img/amanda-siegfried@2x.jpeg 2x" src="img/amanda-siegfried.jpeg" alt="Amanda Siegfried" class="testimonials__image">
+                        </figure>
+                        <div class="testimonials__content">
+                            <h2 class="testimonials__author">Amanda Sigfried</h2>
+                            <p class="testimonials__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <figure class="testimonials__figure">
+                            <img srcset="img/amanda-siegfried.jpeg, img/amanda-siegfried@2x.jpeg 2x" src="img/amanda-siegfried.jpeg" alt="Amanda Siegfried" class="testimonials__image">
+                        </figure>
+                        <div class="testimonials__content">
+                            <h2 class="testimonials__author">Sigmund Freud</h2>
+                            <p class="testimonials__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                        </div>
+                    </li>
+                    <li class="glide__slide">
+                        <figure class="testimonials__figure">
+                            <img srcset="img/amanda-siegfried.jpeg, img/amanda-siegfried@2x.jpeg 2x" src="img/amanda-siegfried.jpeg" alt="Amanda Siegfried" class="testimonials__image">
+                        </figure>
+                        <div class="testimonials__content">
+                            <h2 class="testimonials__author">Bernard Madoff</h2>
+                            <p class="testimonials__text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="glide__bullets" data-glide-el="controls[nav]">
+                <button class="glide__bullet ir" data-glide-dir="=0">1</button>
+                <button class="glide__bullet ir" data-glide-dir="=1">2</button>
+                <button class="glide__bullet ir" data-glide-dir="=2">3</button>
+            </div>
+        </div>
+    </section>
+
+    <footer class="main-footer">
+        <div class="container main-footer__top">
+            <div class="main-footer__widget">
+                <p class="main-footer__title">Recent posts</p>
+                <ul class="main-footer__list">
+                    <li class="main-footer__item">
+                        <a href="" class="main-footer__link">Lorem, ipsum dolor.</a>
+                    </li>
+                    <li class="main-footer__item">
+                        <a href="" class="main-footer__link">Quo, at quia!</a>
+                    </li>
+                    <li class="main-footer__item">
+                        <a href="" class="main-footer__link">Ducimus, iste fugiat!</a>
+                    </li>
+                    <li class="main-footer__item">
+                        <a href="" class="main-footer__link">In, commodi repellat.</a>
+                    </li>
+                    <li class="main-footer__item">
+                        <a href="" class="main-footer__link">Molestiae, consequuntur voluptatum.</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-footer__widget">
+                <p class="main-footer__title">Recent comments</p>
+                <ul class="main-footer__list">
+                    <li class="main-footer__item">
+                        <a href="" class="main-footer__link">Lorem, ipsum dolor.</a>
+                    </li>
+                    <li class="main-footer__item">
+                        <a href="" class="main-footer__link">Quo, at quia!</a>
+                    </li>
+                    <li class="main-footer__item">
+                        <a href="" class="main-footer__link">Ducimus, iste fugiat!</a>
+                    </li>
+                    <li class="main-footer__item">
+                        <a href="" class="main-footer__link">In, commodi repellat.</a>
+                    </li>
+                    <li class="main-footer__item">
+                        <a href="" class="main-footer__link">Molestiae, consequuntur voluptatum.</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="main-footer__widget">
+                <p class="main-footer__title">Tags</p>
+                <ul class="main-footer__list--tags">
+                    <li class="main-footer__item--tags">
+                        <a href="" class="main-footer__link--tags">Insider</a>
+                    </li>
+                    <li class="main-footer__item--tags">
+                        <a href="" class="main-footer__link--tags">Check</a>
+                    </li>
+                    <li class="main-footer__item--tags">
+                        <a href="" class="main-footer__link--tags">Demo</a>
+                    </li>
+                    <li class="main-footer__item--tags">
+                        <a href="" class="main-footer__link--tags">Office</a>
+                    </li>
+                    <li class="main-footer__item--tags">
+                        <a href="" class="main-footer__link--tags">Work</a>
+                    </li>
+                    <li class="main-footer__item--tags">
+                        <a href="" class="main-footer__link--tags">Post</a>
+                    </li>
+                    <li class="main-footer__item--tags">
+                        <a href="" class="main-footer__link--tags">Management</a>
+                    </li>
+                </ul>
+            </div>
+            <address class="main-footer__widget">
+                <p class="main-footer__title">Ubiquity</p>
+                <ul class="main-footer__list main-footer__list--address">
+                    <li class="main-footer__item main-footer__item--address location">2499 Bee Street <br>Bear Lake <br>Michigan 49614</li>
+                    <li class="main-footer__item main-footer__item--address phone"><a href="tel:2318648100" class="main-footer__link">231 - 864 - 8100</a></li>
+                    <li class="main-footer__item main-footer__item--address email"><a href="mailto:Hello@domainname.com" class="main-footer__link">Hello@domainname.com</a></li>
+                </ul>
+            </address>
+        </div>
+        <div class="container main-footer__bottom">
+            <hr class="main-footer__separator">
+            <div class="main-footer__copyright">© 2019 Ubiquity . All Rights Reserved.</div>
+            <ul class="main-footer__social-list">
+                <li class="main-footer__social-item"><a href="" class="main-footer__social-link">
+                    <span class="screen-reader-text">Facebook</span>
+                    <svg height="30" viewBox="0 0 30.155 30" width="30.155" xmlns="http://www.w3.org/2000/svg"><path d="m17.078 2a15.068 15.068 0 0 0 -2.254 29.968v-10.9h-3.73v-3.959h3.73v-2.637c0-4.366 2.127-6.283 5.757-6.283a21.035 21.035 0 0 1 3.092.187v3.459h-2.473c-1.541 0-2.079 1.461-2.079 3.108v2.167h4.516l-.612 3.964h-3.9v10.926a15.069 15.069 0 0 0 -2.047-30z" fill="#f16822" transform="translate(-2 -2)"/></svg>
+                </a></li>
+                <li class="main-footer__social-item"><a href="" class="main-footer__social-link">
+                    <span class="screen-reader-text">Twitter</span>
+                    <svg height="30" viewBox="0 0 30 30" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m29.667 3h-23.334a3.332 3.332 0 0 0 -3.333 3.333v23.334a3.332 3.332 0 0 0 3.333 3.333h23.334a3.332 3.332 0 0 0 3.333-3.333v-23.334a3.332 3.332 0 0 0 -3.333-3.333zm-3.25 10.857v.572a11.644 11.644 0 0 1 -11.717 11.714 12 12 0 0 1 -6.285-1.857h1a9.24 9.24 0 0 0 5.143-1.715 4.166 4.166 0 0 1 -3.858-2.856 6.241 6.241 0 0 1 .715.143 3.138 3.138 0 0 0 1.143-.143 4.128 4.128 0 0 1 -3.285-4 7.128 7.128 0 0 0 1.857.572 4.681 4.681 0 0 1 -1.857-3.572 3.281 3.281 0 0 1 .572-2 11.6 11.6 0 0 0 8.432 4.285c0-.285-.143-.572-.143-1a4.146 4.146 0 0 1 4.143-4.143 3.892 3.892 0 0 1 3 1.285 6.935 6.935 0 0 0 2.572-1 4.176 4.176 0 0 1 -1.857 2.285 7.815 7.815 0 0 0 2.428-.715 9.647 9.647 0 0 1 -2.003 2.145z" fill="#f16822" transform="translate(-3 -3)"/></svg>
+                </a></li>
+                <li class="main-footer__social-item"><a href="" class="main-footer__social-link">
+                    <span class="screen-reader-text">Google +</span>
+                    <svg height="30" viewBox="0 0 30 30" width="30" xmlns="http://www.w3.org/2000/svg"><path d="m17 2a15 15 0 1 0 15 15 15 15 0 0 0 -15-15zm-3 21a6 6 0 1 1 4.041-10.409l-1.641 1.551a3.711 3.711 0 0 0 -2.4-.892 3.75 3.75 0 1 0 3.675 4.5h-3.675v-2.25h5.788a5.929 5.929 0 0 1 -5.788 7.5zm12-6v2.25h-1.5v-2.25h-2.25v-1.5h2.25v-2.25h1.5v2.25h2.25v1.5z" fill="#f16822" transform="translate(-2 -2)"/></svg>
+                </a></li>
+            </ul>
+        </div>
+    </footer>
+
+    <script src="js/nav.js"></script>
+    <script src="js/glide.js"></script>
+    <script src="js/glide-init.js"></script>
+</body>
+
+</html>
