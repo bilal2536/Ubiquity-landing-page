@@ -27,3 +27,8 @@ Avantages :
 ![Screenshot 2021-09-29 at 01-08-07 Ubiquity - Professional Web UI](https://user-images.githubusercontent.com/61947370/135177545-ae457485-ff08-4a38-b26e-27747b8484ec.png)
 
 Voici le lien pour y jeter un oeil ! ==> https://bilal2536.github.io/Ubiquity-landing-page/
+
+# Autres intégrations 
+
+- https://bilal2536.github.io/Huddle-landing-page/
+- https://bilal2536.github.io/Minimalist-portfolio/ 
